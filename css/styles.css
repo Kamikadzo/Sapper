@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+}
+
+/* Wrapper start */
+#wrapper {
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 6px;
+	border: 1px solid #66CEF0;
+}
+
+/* Header start */
+header {
+    color: white;
+}
+#task {
+    background-color: #66CEF0;
+    padding: 5px;
+}
+section {
+    font-size: 19px;
+    text-align: left;
+    background-color: #BDBDBD;
+    padding: 5px;
+}
+#info {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+#info img {
+    position: relative;
+    top: 10px;
+    width: 40px;
+}
+#info input {
+    width: 50px;
+    margin-right: 20px;
+}
+#restart {
+    position: relative;
+    top: 2px;
+    background-image: url("../image/smile_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+#restart:active {
+	border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+#restart.fail {
+    background-image: url("../image/sadness_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+select {
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+}
+#difficulty {
+    margin-right: 20px;
+}
+/* Header end */
+
+/* Main start */
+main {
+    background: #DFDFDF;
+    border-radius:0px 0px 6px 6px;
+	padding: 3px;
+}
+table {
+    margin: auto;
+}
+#field td {
+	width: 30px;
+    height: 30px;
+    background-color:  #BDBDBD;
+    font-weight: bold;
+    font-size: 23px;
+}
+#field td.close, #restart{
+	border-left: 3px solid #EEEEEE;
+    border-top: 3px solid #EEEEEE;
+    border-right: 3px solid #7A7A7A;
+    border-bottom: 3px solid #7A7A7A;
+}
+#field td.flag {
+    background-image: url("../image/flag_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+#field td.bomb:not(.close) {
+    background-image: url("../image/bomb_icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#field td.fail {
+    background-color: #FF8282;
+}
+#field td.b1 {
+    color: blue;
+}
+#field td.b2 {
+    color: green;
+}
+#field td.b3 {
+    color: #DF1A4B;
+}
+#field td.b4 {
+    color: #00007B;
+}
+#field td.b5 {
+    color: #7B0000;
+}
+#field td.b6 {
+    color: #A7EDC2;
+}
+#field td.b7 {
+    color: #FC98D9;
+}
+#field td.b8 {
+    color: #FFFF80;
+}
+/* Main end */
+/* Wrapper end */
